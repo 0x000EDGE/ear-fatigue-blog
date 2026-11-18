@@ -34,6 +34,12 @@ const createTestimonialSchema = () => z.object({
   author: createAuthorSchema()
 })
 
+const createGearSchema = () => z.object({
+    title: z.string(),
+    description: z.string(),
+    image: createImageSchema(),
+})
+
 export default defineContentConfig({
   collections: {
     index: defineCollection({
@@ -41,8 +47,7 @@ export default defineContentConfig({
       source: 'index.yml',
       schema: z.object({
         hero: z.object({
-          links: z.array(createButtonSchema()),
-          images: z.array(createImageSchema())
+          image: createImageSchema()
         }),
         about: createBaseSchema(),
         experience: createBaseSchema().extend({
@@ -105,27 +110,15 @@ export default defineContentConfig({
         links: z.array(createButtonSchema())
       })
     }),
-    speaking: defineCollection({
-      type: 'page',
-      source: 'speaking.yml',
-      schema: z.object({
-        links: z.array(createButtonSchema()),
-        events: z.array(z.object({
-          category: z.enum(['Live talk', 'Podcast', 'Conference']),
-          title: z.string(),
-          date: z.date(),
-          location: z.string(),
-          url: z.string().optional()
-        }))
-      })
-    }),
     about: defineCollection({
-      type: 'page',
-      source: 'about.yml',
-      schema: z.object({
-        content: z.object({}),
-        images: z.array(createImageSchema())
-      })
+        type: 'page',
+        source: 'about.yml',
+        schema: z.object({
+            hero: z.object({
+              image: createImageSchema()
+            }),
+            gears: z.array(createGearSchema())
+        }),
     })
   }
 })

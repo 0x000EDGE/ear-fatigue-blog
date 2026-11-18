@@ -1,46 +1,43 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: [
-    '@nuxt/eslint',
-    '@nuxt/image',
-    '@nuxt/ui',
-    '@nuxt/content',
-    '@vueuse/nuxt',
-    'nuxt-og-image',
-    'motion-v/nuxt'
-  ],
-
-  devtools: {
-    enabled: true
-  },
-
-  css: ['~/assets/css/main.css'],
-
-  content: {
-    experimental: {
-      sqliteConnector: 'native'
-    }
-  },
-
-  compatibilityDate: '2026-06-30',
-
-  eslint: {
-    config: {
-      stylistic: {
-        commaDangle: 'never',
-        braceStyle: '1tbs'
-      }
-    }
-  },
-
-  ogImage: {
-    zeroRuntime: true
-  },
-
-  prerender: {
-    routes: [
-      '/'
+    modules: [
+        "@nuxt/image",
+        "@nuxt/ui",
+        "@nuxt/content",
+        "@vueuse/nuxt",
+        "nuxt-og-image",
+        "motion-v/nuxt",
     ],
-    crawlLinks: true
-  }
-})
+
+    devtools: {
+        enabled: true,
+    },
+
+    css: ["~/assets/css/main.css"],
+
+    content: {
+        experimental: {
+            sqliteConnector: "native",
+        },
+    },
+
+    icon: {
+        customCollections: [
+            {
+                prefix: "custom", // Le préfixe que tu utiliseras dans UIcon
+                dir: "~/assets/icons", // Le dossier contenant tes fichiers .svg
+            },
+        ],
+    },
+
+    compatibilityDate: "2026-06-30",
+
+    ogImage: {
+        zeroRuntime: true,
+    },
+
+    prerender: {
+        routes: ["/"],
+        crawlLinks: true,
+    },
+});

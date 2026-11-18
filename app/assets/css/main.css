@@ -4,22 +4,22 @@
 @source "../../../content/**/*";
 
 @theme static {
-  --font-sans: 'Public Sans', sans-serif;
-  --font-serif: 'Instrument Serif', serif;
+    --font-sans: "Public Sans", sans-serif;
+    --font-serif: "Instrument Serif", serif;
 }
 
 :root {
-  --ui-container: var(--container-4xl);
+    --ui-container: var(--container-6xl);
 
-  ::selection {
-    color: #282a30;
-    background-color: #c8c8c8;
-  }
+    ::selection {
+        color: #282a30;
+        background-color: #c8c8c8;
+    }
 }
 
 .dark {
-  ::selection {
-    color: #ffffff;
-    background-color: #474747;
-  }
+    ::selection {
+        color: #ffffff;
+        background-color: #474747;
+    }
 }
