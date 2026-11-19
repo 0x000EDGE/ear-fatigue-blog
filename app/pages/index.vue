@@ -92,8 +92,8 @@ useSeoMeta({
             <LandingAbout :page />
             <LandingWorkExperience :page />
         </UPageSection>
-        <LandingTestimonials :page />
         <!--
+        <LandingTestimonials :page />
     <LandingBlog :page />
     <LandingFAQ :page />
     -->

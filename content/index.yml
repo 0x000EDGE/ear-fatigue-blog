@@ -15,27 +15,27 @@ about:
 experience:
     title: Formation
     items:
-        - position: "Bachelor"
+        - position: "Bachelor Audio Production"
           date: "2025 - Présent"
           company:
               name: SAE Institute
-              logo: "i-custom-sae"
-              url: "https://sae.com"
-              color: "#00DC82"
-        - position: "Assets Designer at"
-          date: "2022 - 2023"
+              logo: "i-lucide-school"
+              url: "https://www.sae.edu/ch-ge/"
+              color: "#FF9B00"
+        - position: "Maturité Professionnelle"
+          date: "2024 - 2025"
           company:
-              name: Raycast
-              logo: "i-simple-icons-raycast"
-              url: "https://raycast.com"
-              color: "#FF6363"
-        - position: "Senior UX/UI Designer at"
-          date: "2020 - 2021"
+              name: Divtec
+              logo: "i-lucide-graduation-cap"
+              url: "https://www.divtec.ch"
+              color: "#5949a1"
+        - position: "CFC Informaticien"
+          date: "2020 - 2024"
           company:
-              name: Linear
-              logo: "i-simple-icons-linear"
-              url: "https://linear.app"
-              color: "#5E6AD2"
+              name: Divtec
+              logo: "i-lucide-monitor-cog"
+              url: "https://www.divtec.ch"
+              color: "#DE006B"
 testimonials:
     - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
       author:

@@ -38,7 +38,7 @@ defineProps<{
                     <img
                         :src="gear.image.src"
                         :alt="gear.image.alt"
-                        class="object-cover w-full h-48 rounded-lg"
+                        class="object-cover w-full rounded-lg"
                     />
                 </UPageCard>
             </Motion>

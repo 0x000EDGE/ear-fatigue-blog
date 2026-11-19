@@ -13,18 +13,18 @@ gears:
       image:
           src: https://static.sonovente.com/img/library/zoom/50/450/50993_1.jpg
           alt: focusrite 2i4
-    - title: Hello
-      description: Hello 2
+    - title: Røde NT1 A
+      description: Microphone à condensateur
       image:
-          src: lol
-          alt: hello
-    - title: Hello
-      description: Hello 2
+          src: https://static.sonovente.com/img/library/zoom/4/450/4246_2.jpg
+          alt: Røde NT1 A
+    - title: Akai APC MINI MKII
+      description: Contrôleur MIDI (Ableton)
       image:
-          src: lol
-          alt: hello
-    - title: Hello
-      description: Hello 2
+          src: https://static.sonovente.com/img/library/zoom/88/450/88070_1.jpg
+          alt: Akai APC MINI
+    - title: Akai MPD 218
+      description: Contrôleur MIDI (Pads)
       image:
-          src: lol
-          alt: hello
+          src: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXf4Fmy7iyX5aXHvo7BR1tW0-6G7_eFBzsYtqFnlMAF3Q1wDn5vwMBNXg&s=10
+          alt: Akai MPD 218

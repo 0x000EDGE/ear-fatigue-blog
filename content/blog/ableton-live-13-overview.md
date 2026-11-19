@@ -1,15 +1,18 @@
 ---
-title: How I Built My Design System from Scratch
-description: A practical guide to creating your own design system, from initial
-    audit to implementation, and the lessons learned along the way.
-date: 2025-03-05
-image: https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-minRead: 6
+title: Ableton Live 13 - Premières impressions
+description: Premiers avis de la version 13 de Ableton Live 13 prévue pour début 2027
+date: 2026-11-19
+image: https://beta-ableton.imgix.net/media/i5pe2wzj/1-l13-stepseq-2.jpg?width=1920&v=1dd71decfb559b0&fit=crop&auto=compress,format
+badge: 
+    label: DAW
+    color: error
+    variant: subtle
 author:
-    name: Emma Thompson
+    name: Gwenaël Girard
+    description: Ingénieur du son
     avatar:
-        src: https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-        alt: Emma Thompson
+        src: authors/gwen.jpg
+        alt: Gwenaël Girard
 ---
 
 After years of starting each project with a blank Figma file, I finally took the plunge and created my own comprehensive design system. The process was both challenging and incredibly rewarding, and I wanted to share my approach for other designers considering the same journey.
